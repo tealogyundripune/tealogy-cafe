@@ -1,0 +1,64 @@
+[
+  {
+    "id":"frequently",
+    "category":"Frequently Ordered",
+    "items":[
+      {
+        "id":"cutting_chai_f",
+        "name":"Cutting Chai",
+        "price":15,
+        "details":"90ml serving | Strong tea with milk and ginger"
+      },
+      {
+        "id":"cold_coffee_f",
+        "name":"Cold Coffee",
+        "price":89,
+        "details":"300ml chilled coffee with ice cream"
+      }
+    ]
+  },
+
+  {
+    "id":"beverages",
+    "category":"Beverages",
+    "items":[
+      {
+        "id":"cutting_chai",
+        "name":"Cutting Chai",
+        "price":15,
+        "details":"90ml serving | Strong tea with milk and ginger"
+      },
+      {
+        "id":"masala_tea",
+        "name":"Masala Tea",
+        "price":15,
+        "details":"100ml serving | Tea with house masala spices"
+      },
+      {
+        "id":"cold_coffee",
+        "name":"Cold Coffee",
+        "price":89,
+        "details":"300ml chilled coffee with ice cream"
+      }
+    ]
+  },
+
+  {
+    "id":"snacks",
+    "category":"Snacks",
+    "items":[
+      {
+        "id":"french_fries",
+        "name":"French Fries",
+        "price":89,
+        "details":"Crispy salted fries with dip"
+      },
+      {
+        "id":"vada_pav",
+        "name":"Vada Pav",
+        "price":25,
+        "details":"Mumbai style vada pav with chutney"
+      }
+    ]
+  }
+]
