@@ -258,14 +258,12 @@ function renderMenu(selectedCategory='frequently'){
         </div>
 
         <div class="price">
-          <!-- ₹${item.price} -->
+         
 			₹${item.basePrice}
 
-		${item.addonPrice
-		 <div class="text-xs text-gray-500">
-			${item.addonLabel}: ₹${item.addonPrice}
-		</div>
+		${item.addonPrice ? <div class="text-xs text-gray-500"> ${item.addonLabel}: ₹${item.addonPrice} </div> :
 		}
+		
 
 
         </div>
@@ -794,91 +792,16 @@ loadMenu();
         class="w-full border p-3 rounded mb-3"
         placeholder="Special Instructions"></textarea>
 
-      <!-- <div class="bg-yellow-100 p-3 rounded mb-3 text-sm"> -->
-
-        <!-- UPI ID: -->
-        <!-- <b>8793337720@hdf</b> -->
-
-      <!-- </div> -->
-
-      <!-- <button -->
-        <!-- onclick="submitOrder()" -->
-        <!-- class="btn w-full text-lg"> -->
-
-        <!-- Order on WhatsApp -->
-
-      <!-- </button> -->
-	  
-	  <!-- <button onclick="payNow()" class="btn w-full text-lg">Pay with UPI</button> -->
-
-		<!-- <script> -->
-			<!-- function payNow() { -->
-				<!-- window.location.href = -->
-				<!-- "upi://pay?pa=9730314889@pthdfc&pn=Tealogy Cafe&am=450&cu=INR&tn=Cafe Bill"; -->
-							<!-- } -->
-		<!-- </script> -->
+     
 	  
 	  
-<a
-  href="payment-qr.jpeg"
-  download
-  class="btn w-full block text-center mb-3 bg-green-600">
 
-  Download Payment QR
-
-</a>
 
 
 		
-		<div class="text-center text-sm font-bold text-black-600 mb-3">
-			Option 1 : Make Payment to UPI ID : 9730314889@pthdfc<br> 	
 		
-		</div>
-		<div class="text-left-side text-sm text-black-600 mb-3">
-				
-		  1. Pay the amount to UPI ID : 9730314889@pthdfc<br>
-		  2. Complete payment. Copy the Transaction ID.<br>
-		  3. Enter UPI transaction ID below<br>
-		  4. After successful payment, click on "Confirm Order on WhatsApp"
 
-		</div>
-	  
-		<div class="text-center font-bold text-sm text-black-600 mb-3">
-			Option 2 : Make Payment Using QR Scanner	
-
-		</div>
-		<div class="text-left-side text-sm text-black-600 mb-3">
-		  1. Click on "Open Payment QR" below.<br>
-		  2. Make the Payment on QR using UPI App<br>
-		  3. Complete payment. Copy the Transaction ID.<br>
-		  4. Enter UPI transaction ID below<br>
-		  5. After successful payment, click on "Confirm Order on WhatsApp"
-
-		</div>
-
-		<a
-		  href="payment-qr.jpeg"
-		  target="_blank"
-		  class="btn w-full block text-center mb-3 bg-green-600">
-
-		  Open Payment QR
-
-		</a>
-
-			<input
-			id="transactionId"
-			class="w-full border-2 border-green-500 p-3 rounded mb-3 text-center font-bold"
-			placeholder="Enter UPI Transaction ID">
-
-			<button
-			  id="confirmBtn"
-			  onclick="submitOrder()"
-			  disabled
-			  class="btn w-full text-lg opacity-50 bg-red-500">
-
-			  Confirm Order on WhatsApp
-
-			</button>
+			
 			
 			
 <button
