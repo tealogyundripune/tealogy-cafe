@@ -1,241 +1,630 @@
 [
-	{
-    "id":"frequently",
-    "category":"Frequently Ordered",
-    "items":[
-      {
-        "id":"cutting_chai_f",
-        "name":"Cutting Chai",
-        "basePrice":15,
-        "details":"90ml serving | Strong tea with milk and ginger",
-		"addonLabel": "Kulhad",
-        "addonPrice": 58
-      },
-      {
-        "id":"cold_coffee_f",
-        "name":"Cold Coffee",
-        "basePrice":89,
-        "details":"300ml chilled coffee with ice cream"
-	  }
-    ]
-  },
-	
   {
     "id": "desi_chai",
-    "category": "Desi Chai",
+    "category": "DESI CHAI",
     "items": [
       {
         "id": "cutting_chai_2nos",
-        "name": "Cutting Chai ( 2Nos )",
-        "basePrice": 44,
-        "details": "Freshly prepared at Tealogy Cafe",
+        "name": "CUTTING CHAI ( 2nos )",
+        "basePrice": 31,
+        "details": "90ml serving | Strong tea with milk",
         "addonLabel": "Kulhad",
-        "addonPrice": 58
+        "addonPrice": 41
       },
       {
         "id": "adrak_tea_2nos",
-        "name": "Adrak Tea ( 2Nos )",
-        "basePrice": 58,
-        "details": "Freshly prepared at Tealogy Cafe",
+        "name": "ADRAK TEA ( 2nos )",
+        "basePrice": 41,
+        "details": "90ml serving | Strong tea with milk and ginger",
         "addonLabel": "Kulhad",
-        "addonPrice": 73
+        "addonPrice": 51
       },
       {
         "id": "baarish_wali_chai_2nos",
-        "name": "Baarish Wali Chai ( 2Nos )",
-        "basePrice": 44,
-        "details": "Freshly prepared at Tealogy Cafe",
+        "name": "BAARISH WALI CHAI ( 2nos )",
+        "basePrice": 31,
+        "details": "90ml serving | Strong milk tea with ginger and elachi",
         "addonLabel": "Kulhad",
-        "addonPrice": 58
+        "addonPrice": 41
       },
       {
         "id": "elaichi_tea_2nos",
-        "name": "Elaichi Tea ( 2Nos )",
-        "basePrice": 58,
-        "details": "Freshly prepared at Tealogy Cafe",
+        "name": "ELAICHI TEA ( 2nos )",
+        "basePrice": 41,
+        "details": "90ml serving | Strong milk tea with elachi",
         "addonLabel": "Kulhad",
-        "addonPrice": 73
+        "addonPrice": 51
       },
       {
         "id": "masala_tea_2nos",
-        "name": "Masala Tea ( 2Nos )",
-        "basePrice": 73,
-        "details": "Freshly prepared at Tealogy Cafe",
+        "name": "MASALA TEA ( 2nos )",
+        "basePrice": 51,
+        "details": "90ml serving | Strong milk tea with Tea Masala",
         "addonLabel": "Kulhad",
-        "addonPrice": 88
+        "addonPrice": 61
       },
       {
         "id": "gud_wali_chai_2nos",
-        "name": "Gud Wali Chai ( 2Nos )",
-        "basePrice": 73,
-        "details": "Freshly prepared at Tealogy Cafe",
+        "name": "GUD WALI CHAI ( 2nos )",
+        "basePrice": 51,
+        "details": "90ml serving | Strong milk tea with Jaggry Powder",
         "addonLabel": "Kulhad",
-        "addonPrice": 88
+        "addonPrice": 61
       }
     ]
   },
   {
     "id": "flavoured_tea",
-    "category": "Flavoured Tea",
+    "category": "FLAVOURED TEA",
     "items": [
       {
         "id": "chocolate_tea_2nos",
-        "name": "Chocolate Tea ( 2Nos )",
-        "basePrice": 73,
-        "details": "Freshly prepared at Tealogy Cafe",
-        "addonLabel": "Kulhad",
-        "addonPrice": 88
+        "name": "CHOCOLATE TEA ( 2nos )",
+        "basePrice": 26,
+        "details": "Freshly prepared at Tealogy Cafe"
       },
       {
         "id": "paan_tea_2nos",
-        "name": "Paan Tea ( 2Nos )",
-        "basePrice": 73,
-        "details": "Freshly prepared at Tealogy Cafe",
-        "addonLabel": "Kulhad",
-        "addonPrice": 88
+        "name": "PAAN TEA ( 2nos )",
+        "basePrice": 27,
+        "details": "Freshly prepared at Tealogy Cafe"
       },
       {
         "id": "kesar_tea_2nos",
-        "name": "Kesar Tea ( 2Nos )",
-        "basePrice": 73,
-        "details": "Freshly prepared at Tealogy Cafe",
-        "addonLabel": "Kulhad",
-        "addonPrice": 88
+        "name": "KESAR TEA ( 2nos )",
+        "basePrice": 28,
+        "details": "Freshly prepared at Tealogy Cafe"
       },
       {
         "id": "rose_tea_2nos",
-        "name": "Rose Tea ( 2Nos )",
-        "basePrice": 73,
-        "details": "Freshly prepared at Tealogy Cafe",
-        "addonLabel": "Kulhad",
-        "addonPrice": 88
+        "name": "ROSE TEA ( 2nos )",
+        "basePrice": 29,
+        "details": "Freshly prepared at Tealogy Cafe"
       },
       {
         "id": "mango_tea_2nos",
-        "name": "Mango Tea ( 2Nos )",
-        "basePrice": 73,
-        "details": "Freshly prepared at Tealogy Cafe",
-        "addonLabel": "Kulhad",
-        "addonPrice": 88
+        "name": "MANGO TEA ( 2nos )",
+        "basePrice": 30,
+        "details": "Freshly prepared at Tealogy Cafe"
       }
     ]
   },
   {
     "id": "coffee",
-    "category": "Coffee",
+    "category": "COFFEE",
     "items": [
       {
+        "id": "black_coffee",
+        "name": "BLACK COFFEE",
+        "basePrice": 20,
+        "details": "Freshly prepared at Tealogy Cafe"
+      },
+      {
         "id": "hot_coffee_2nos",
-        "name": "Hot Coffee ( 2Nos )",
-        "basePrice": 88,
+        "name": "HOT COFFEE ( 2nos )",
+        "basePrice": 61,
         "details": "Freshly prepared at Tealogy Cafe"
       },
       {
         "id": "chocolate_hot_coffee_2nos",
-        "name": "Chocolate Hot Coffee( 2Nos )",
-        "basePrice": 102,
+        "name": "CHOCOLATE HOT COFFEE( 2nos )",
+        "basePrice": 71,
+        "details": "Freshly prepared at Tealogy Cafe"
+      }
+    ]
+  },
+  {
+    "id": "hot_milk",
+    "category": "HOT MILK",
+    "items": [
+      {
+        "id": "badam_kesar_milk",
+        "name": "BADAM KESAR MILK",
+        "basePrice": 91,
+        "details": "Freshly prepared at Tealogy Cafe"
+      },
+      {
+        "id": "hot_chocolate",
+        "name": "HOT CHOCOLATE",
+        "basePrice": 60,
+        "details": "Freshly prepared at Tealogy Cafe"
+      }
+    ]
+  },
+  {
+    "id": "coolers",
+    "category": "COOLERS",
+    "items": [
+      {
+        "id": "classic_jeeru",
+        "name": "CLASSIC JEERU",
+        "basePrice": 70,
+        "details": "Freshly prepared at Tealogy Cafe"
+      },
+      {
+        "id": "masala_lemond",
+        "name": "MASALA LEMONADE",
+        "basePrice": 70,
+        "details": "Freshly prepared at Tealogy Cafe"
+      },
+      {
+        "id": "shikanji",
+        "name": "SHIKANJI",
+        "basePrice": 81,
+        "details": "Freshly prepared at Tealogy Cafe"
+      },
+      {
+        "id": "chilli_guava",
+        "name": "CHILLI GUAVA",
+        "basePrice": 81,
+        "details": "Freshly prepared at Tealogy Cafe"
+      },
+      {
+        "id": "kala_khatta",
+        "name": "KALA KHATTA",
+        "basePrice": 81,
+        "details": "Freshly prepared at Tealogy Cafe"
+      }
+    ]
+  },
+  {
+    "id": "ice_crush",
+    "category": "ICE CRUSH",
+    "items": [
+      {
+        "id": "strawberry_ice_crush",
+        "name": "STRAWBERRY",
+        "basePrice": 81,
+        "details": "Freshly prepared at Tealogy Cafe"
+      },
+      {
+        "id": "kiwi_ice_crush",
+        "name": "KIWI",
+        "basePrice": 81,
+        "details": "Freshly prepared at Tealogy Cafe"
+      },
+      {
+        "id": "blueberry_ice_crush",
+        "name": "BLUEBERRY",
+        "basePrice": 81,
+        "details": "Freshly prepared at Tealogy Cafe"
+      }
+    ]
+  },
+  {
+    "id": "iced_tea",
+    "category": "ICED TEA",
+    "items": [
+      {
+        "id": "lemon_mint_iced_tea",
+        "name": "LEMON MINT ICED TEA",
+        "basePrice": 81,
         "details": "Freshly prepared at Tealogy Cafe"
       }
     ]
   },
   {
     "id": "cold_coffee",
-    "category": "Cold Coffee",
+    "category": "COLD COFFEE",
     "items": [
       {
+        "id": "cold_coffee",
+        "name": "COLD COFFEE",
+        "basePrice": 91,
+        "details": "Freshly prepared at Tealogy Cafe"
+      },
+      {
         "id": "cold_coffee_with_ice_cream",
-        "name": "Cold Coffee With Ice Cream",
-        "basePrice": 159,
+        "name": "COLD COFFEE WITH ICE CREAM",
+        "basePrice": 111,
         "details": "Freshly prepared at Tealogy Cafe"
       },
       {
         "id": "chocolate_cold_coffee",
-        "name": "Chocolate Cold Coffee",
-        "basePrice": 145,
+        "name": "CHOCOLATE COLD COFFEE",
+        "basePrice": 101,
         "details": "Freshly prepared at Tealogy Cafe"
       }
     ]
   },
   {
-    "id": "cheesecake_milk_shake",
-    "category": "Cheesecake Milk Shake",
+    "id": "shakes",
+    "category": "SHAKES",
+    "items": [
+      {
+        "id": "chocolate_shake",
+        "name": "CHOCOLATE SHAKE",
+        "basePrice": 101,
+        "details": "Freshly prepared at Tealogy Cafe"
+      },
+      {
+        "id": "oreo_shake",
+        "name": "OREO SHAKE",
+        "basePrice": 101,
+        "details": "Freshly prepared at Tealogy Cafe"
+      },
+      {
+        "id": "kit_kat_shake",
+        "name": "KIT KAT SHAKE",
+        "basePrice": 101,
+        "details": "Freshly prepared at Tealogy Cafe"
+      },
+      {
+        "id": "brownie_shake",
+        "name": "BROWNIE SHAKE",
+        "basePrice": 111,
+        "details": "Freshly prepared at Tealogy Cafe"
+      }
+    ]
+  },
+  {
+    "id": "fruit_shakes",
+    "category": "FRUIT SHAKES",
+    "items": [
+      {
+        "id": "strawberry_shake",
+        "name": "STRAWBERRY SHAKE",
+        "basePrice": 91,
+        "details": "Freshly prepared at Tealogy Cafe"
+      },
+      {
+        "id": "mango_shake",
+        "name": "MANGO SHAKE",
+        "basePrice": 91,
+        "details": "Freshly prepared at Tealogy Cafe"
+      },
+      {
+        "id": "kiwi_shake",
+        "name": "KIWI SHAKE",
+        "basePrice": 91,
+        "details": "Freshly prepared at Tealogy Cafe"
+      },
+      {
+        "id": "blueberry_shake",
+        "name": "BLUEBERRY SHAKE",
+        "basePrice": 101,
+        "details": "Freshly prepared at Tealogy Cafe"
+      },
+      {
+        "id": "kesar_thandaai_milkshake",
+        "name": "KESAR THANDAAI MILKSHAKE",
+        "basePrice": 121,
+        "details": "Freshly prepared at Tealogy Cafe"
+      },
+      {
+        "id": "chiku_milkshake",
+        "name": "CHIKU MILKSHAKE",
+        "basePrice": 121,
+        "details": "Freshly prepared at Tealogy Cafe"
+      }
+    ]
+  },
+  {
+    "id": "cheese_milk_shake",
+    "category": "CHEESE MILK SHAKE",
     "items": [
       {
         "id": "mango_cheese_cake_milk_shake",
-        "name": "Mango Cheese Cake Milk Shake",
-        "basePrice": 218,
+        "name": "MANGO CHEESE CAKE MILK SHAKE",
+        "basePrice": 152,
         "details": "Freshly prepared at Tealogy Cafe"
       },
       {
         "id": "strawberry_cheese_cake_milk_shake",
-        "name": "Strawberry Cheese Cake Milk Shake",
-        "basePrice": 218,
+        "name": "STRAWBERRY CHEESE CAKE MILK SHAKE",
+        "basePrice": 152,
         "details": "Freshly prepared at Tealogy Cafe"
       },
       {
         "id": "blueberry_cheese_cake_milk_shake",
-        "name": "Blueberry Cheese Cake Milk Shake",
-        "basePrice": 218,
+        "name": "BLUEBERRY CHEESE CAKE MILK SHAKE",
+        "basePrice": 152,
         "details": "Freshly prepared at Tealogy Cafe"
       }
     ]
   },
   {
-    "id": "peri_peri_french_fries",
-    "category": "Peri Peri French Fries",
+    "id": "tea_snacks",
+    "category": "TEA-SNACKS",
     "items": [
       {
-        "id": "potato_shots_12_nos",
-        "name": "Potato Shots (12 Nos)",
-        "basePrice": 115,
+        "id": "butter_toast",
+        "name": "BUTTER TOAST",
+        "basePrice": 40,
+        "details": "Freshly prepared at Tealogy Cafe"
+      },
+      {
+        "id": "maska_bun",
+        "name": "MASKA BUN",
+        "basePrice": 40,
+        "details": "Freshly prepared at Tealogy Cafe"
+      },
+      {
+        "id": "french_fries",
+        "name": "FRENCH FRIES",
+        "basePrice": 91,
+        "details": "Freshly prepared at Tealogy Cafe"
+      },
+      {
+        "id": "peri_peri_french_fries",
+        "name": "PERI PERI FRENCH FRIES",
+        "basePrice": 111,
+        "details": "Freshly prepared at Tealogy Cafe"
+      },
+      {
+        "id": "potato_shots_12nos",
+        "name": "POTATO SHOTS (12 nos)",
+        "basePrice": 81,
         "details": "Freshly prepared at Tealogy Cafe"
       }
     ]
   },
   {
-    "id": "desi",
-    "category": "Desi",
+    "id": "healthy_tea",
+    "category": "HEALTHY TEA",
+    "items": [
+      {
+        "id": "green_tea",
+        "name": "GREEN TEA",
+        "basePrice": 31,
+        "details": "Freshly prepared at Tealogy Cafe"
+      },
+      {
+        "id": "black_tea",
+        "name": "BLACK TEA",
+        "basePrice": 31,
+        "details": "Freshly prepared at Tealogy Cafe"
+      },
+      {
+        "id": "lemon_tea",
+        "name": "LEMON TEA",
+        "basePrice": 31,
+        "details": "Freshly prepared at Tealogy Cafe"
+      },
+      {
+        "id": "lemon_honey_tea",
+        "name": "LEMON HONEY TEA",
+        "basePrice": 31,
+        "details": "Freshly prepared at Tealogy Cafe"
+      }
+    ]
+  },
+  {
+    "id": "maggi",
+    "category": "MAGGI",
+    "items": [
+      {
+        "id": "masala_maggi",
+        "name": "MASALA MAGGI",
+        "basePrice": 70,
+        "details": "Freshly prepared at Tealogy Cafe"
+      },
+      {
+        "id": "vagetable_maggi",
+        "name": "VEGETABLE MAGGI",
+        "basePrice": 81,
+        "details": "Freshly prepared at Tealogy Cafe"
+      },
+      {
+        "id": "cheese_corn_maggi",
+        "name": "CHEESE CORN MAGGI",
+        "basePrice": 91,
+        "details": "Freshly prepared at Tealogy Cafe"
+      }
+    ]
+  },
+  {
+    "id": "sandwich",
+    "category": "SANDWICH",
+    "items": [
+      {
+        "id": "coleslaw_sandwich",
+        "name": "COLESLAW SANDWICH",
+        "basePrice": 60,
+        "details": "Freshly prepared at Tealogy Cafe"
+      },
+      {
+        "id": "masala_sandwich",
+        "name": "MASALA SANDWICH",
+        "basePrice": 70,
+        "details": "Freshly prepared at Tealogy Cafe"
+      },
+      {
+        "id": "cheese_chutney_sandwich",
+        "name": "CHEESE CHUTNEY SANDWICH",
+        "basePrice": 91,
+        "details": "Freshly prepared at Tealogy Cafe"
+      },
+      {
+        "id": "cheese_corn_sandwich",
+        "name": "CHEESE CORN SANDWICH",
+        "basePrice": 91,
+        "details": "Freshly prepared at Tealogy Cafe"
+      },
+      {
+        "id": "chocolate_sandwich",
+        "name": "CHOCOLATE SANDWICH",
+        "basePrice": 81,
+        "details": "Freshly prepared at Tealogy Cafe"
+      },
+      {
+        "id": "vegetable_club_sandwich",
+        "name": "VEGETABLE CLUB SANDWICH",
+        "basePrice": 101,
+        "details": "Freshly prepared at Tealogy Cafe"
+      }
+    ]
+  },
+  {
+    "id": "desi_food",
+    "category": "DESI",
     "items": [
       {
         "id": "vada_pav",
-        "name": "Vada Pav",
-        "basePrice": 36,
+        "name": "VADA PAV",
+        "basePrice": 26,
+        "details": "Freshly prepared at Tealogy Cafe"
+      },
+      {
+        "id": "dabeli",
+        "name": "DABELI",
+        "basePrice": 40,
+        "details": "Freshly prepared at Tealogy Cafe"
+      },
+      {
+        "id": "indori_poha",
+        "name": "INDORI POHA",
+        "basePrice": 70,
+        "details": "Freshly prepared at Tealogy Cafe"
+      },
+      {
+        "id": "dry_fruite_upma_mix",
+        "name": "DRY FRUIT UPMA MIX",
+        "basePrice": 91,
+        "details": "Freshly prepared at Tealogy Cafe"
+      },
+      {
+        "id": "masala_oats_meal",
+        "name": "MASALA OATS MEAL",
+        "basePrice": 91,
+        "details": "Freshly prepared at Tealogy Cafe"
+      },
+      {
+        "id": "pav_bhaji",
+        "name": "PAV BHAJI",
+        "basePrice": 111,
         "details": "Freshly prepared at Tealogy Cafe"
       }
     ]
   },
   {
-    "id": "combo_s",
-    "category": "Combo'S",
+    "id": "combo",
+    "category": "COMBO",
     "items": [
       {
         "id": "butter_toast_chai_2nos",
-        "name": "Butter Toast+Chai ( 2Nos )",
-        "basePrice": 102,
+        "name": "BUTTER TOAST+CHAI ( 2nos )",
+        "basePrice": 51,
         "details": "Freshly prepared at Tealogy Cafe"
       },
       {
         "id": "bun_maska_chai_2nos",
-        "name": "Bun Maska + Chai ( 2Nos )",
-        "basePrice": 102,
+        "name": "BUN MASKA + CHAI ( 2nos )",
+        "basePrice": 51,
         "details": "Freshly prepared at Tealogy Cafe"
       },
       {
-        "id": "masala_tea_fries_2nos",
-        "name": "Masala Tea+Fries ( 2Nos )",
-        "basePrice": 175,
+        "id": "masala_tea_fries_2nos_combo",
+        "name": "MASALA TEA+FRIES ( 2nos )",
+        "basePrice": 101,
+        "details": "Freshly prepared at Tealogy Cafe"
+      },
+      {
+        "id": "masala_sandwich_cold_coffee_combo",
+        "name": "MASALA SANDWICH + COLD COFFEE",
+        "basePrice": 152,
+        "details": "Freshly prepared at Tealogy Cafe"
+      },
+      {
+        "id": "masala_maggi_mango_shake_combo",
+        "name": "MASALA MAGGI + MANGO SHAKE",
+        "basePrice": 152,
         "details": "Freshly prepared at Tealogy Cafe"
       }
     ]
   },
   {
-    "id": "packing_charges",
-    "category": "Packing Charges",
+    "id": "rice_bowl",
+    "category": "RICE BOWL (MEAL COMBO ADDON)",
     "items": [
       {
-        "id": "zomato_swiggy_platform",
-        "name": "Zomato/Swiggy Platform",
-        "basePrice": null,
+        "id": "dal_chawal",
+        "name": "DAL CHAWAL",
+        "basePrice": 132,
+        "details": "Freshly prepared at Tealogy Cafe"
+      },
+      {
+        "id": "butter_khichdi",
+        "name": "BUTTER KHICHDI",
+        "basePrice": 142,
+        "details": "Freshly prepared at Tealogy Cafe"
+      },
+      {
+        "id": "rajma_rice",
+        "name": "RAJMA RICE",
+        "basePrice": 162,
+        "details": "Freshly prepared at Tealogy Cafe"
+      },
+      {
+        "id": "dal_makhani_with_rice",
+        "name": "DAL MAKHANI WITH RICE",
+        "basePrice": 183,
+        "details": "Freshly prepared at Tealogy Cafe"
+      },
+      {
+        "id": "paneer_butter_masala_with_rice",
+        "name": "PANEER BUTTER MASALA WITH RICE",
+        "basePrice": 183,
+        "details": "Freshly prepared at Tealogy Cafe"
+      }
+    ]
+  },
+  {
+    "id": "waffles",
+    "category": "WAFFLES",
+    "items": [
+      {
+        "id": "chocolate_waffle",
+        "name": "CHOCOLATE WAFFLE",
+        "basePrice": 101,
+        "details": "Freshly prepared at Tealogy Cafe"
+      },
+      {
+        "id": "white_chocolate_waffle",
+        "name": "WHITE CHOCOLATE",
+        "basePrice": 107,
+        "details": "Freshly prepared at Tealogy Cafe"
+      },
+      {
+        "id": "fantasy_dark_white_waffle",
+        "name": "FANTASY (DARK + WHITE)",
+        "basePrice": 107,
+        "details": "Freshly prepared at Tealogy Cafe"
+      },
+      {
+        "id": "oreo_delight_waffle",
+        "name": "OREO DELIGHT",
+        "basePrice": 111,
+        "details": "Freshly prepared at Tealogy Cafe"
+      },
+      {
+        "id": "krazy_kitkat_waffle",
+        "name": "KRAZY KITKAT",
+        "basePrice": 111,
+        "details": "Freshly prepared at Tealogy Cafe"
+      },
+      {
+        "id": "cokkie_n_cream_waffle",
+        "name": "COOKIE N CREAM",
+        "basePrice": 132,
+        "details": "Freshly prepared at Tealogy Cafe"
+      },
+      {
+        "id": "chewy_caramel_waffle",
+        "name": "CHEWY CARAMEL",
+        "basePrice": 132,
+        "details": "Freshly prepared at Tealogy Cafe"
+      },
+      {
+        "id": "fudgy_brownie_waffle",
+        "name": "FUDGY BROWNIE",
+        "basePrice": 132,
+        "details": "Freshly prepared at Tealogy Cafe"
+      },
+      {
+        "id": "naughty_nutella_waffle",
+        "name": "NAUGHTY NUTELLA",
+        "basePrice": 132,
         "details": "Freshly prepared at Tealogy Cafe"
       }
     ]
