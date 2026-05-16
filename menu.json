@@ -5,11 +5,9 @@
     "items":[
       {
         "id":"cutting_chai_f",
-        "name":"Cutting Chai",
+        "name":"CUTTING CHAI (2 Nos.)",
         "basePrice":31,
-        "details":"90ml serving | Strong tea with milk and ginger",
-		"addonLabel": "Kulhad",
-        "addonPrice": 41
+        "details":"90ml serving | Strong tea with milk and ginger"
       },
       {
         "id":"cold_coffee_f",
@@ -19,19 +17,15 @@
 	  },
       {
         "id": "adrak_tea_2nos_f_k",
-        "name": "ADRAK TEA(2nos;Kulhad)",
+        "name": "ADRAK TEA (2 Nos.)",
         "basePrice": 51,
-        "details": "90ml serving | Strong tea with milk and ginger",
-        "addonLabel": "Kulhad",
-        "addonPrice": 51
+        "details": "90ml serving | Strong tea with milk and ginger"
       },
       {
         "id": "baarish_wali_chai_2nos_f_k",
-        "name": "BAARISH WALI CHAI(2nos;Kulhad)",
+        "name": "BAARISH WALI CHAI (2 Nos.)",
         "basePrice": 51,
-        "details": "90ml serving | Strong milk tea with ginger and elachi",
-        "addonLabel": "Kulhad",
-        "addonPrice": 41
+        "details": "90ml serving | Strong milk tea with ginger and elachi"
       }
     ]
   },
@@ -48,18 +42,16 @@
       },
       {
         "id":"pav_single",
-        "name":"PAV (SINGLE)",
+        "name":"SINGLE PAV (1x)",
         "basePrice":10,
         "details":"Single Pav"
 	  },
-      
-	  {
+      {
         "id":"pav_pair",
-        "name":"PAV (PAIR(2x))",
+        "name":"PAIR PAV (2x)",
         "basePrice":20,
         "details":"2 Pav"
 	  }
-      
     ]
   },
   
@@ -69,106 +61,82 @@
     "items": [
       {
         "id": "cutting_chai_2nos",
-        "name": "CUTTING CHAI ( 2nos )",
+        "name": "CUTTING CHAI (2 Nos.)",
         "basePrice": 31,
-        "details": "90ml serving | Strong tea with milk",
-        "addonLabel": "Kulhad",
-        "addonPrice": 41
+        "details": "90ml serving | Strong tea with milk"
       },
       {
         "id": "adrak_tea_2nos",
-        "name": "ADRAK TEA ( 2nos )",
+        "name": "ADRAK TEA (2 Nos.)",
         "basePrice": 41,
-        "details": "90ml serving | Strong tea with milk and ginger",
-        "addonLabel": "Kulhad",
-        "addonPrice": 51
+        "details": "90ml serving | Strong tea with milk and ginger"
       },
       {
         "id": "baarish_wali_chai_2nos",
-        "name": "BAARISH WALI CHAI ( 2nos )",
+        "name": "BAARISH WALI CHAI (2 Nos.)",
         "basePrice": 31,
-        "details": "90ml serving | Strong milk tea with ginger and elachi",
-        "addonLabel": "Kulhad",
-        "addonPrice": 41
+        "details": "90ml serving | Strong milk tea with ginger and elachi"
       },
       {
         "id": "elaichi_tea_2nos",
-        "name": "ELAICHI TEA ( 2nos )",
+        "name": "ELAICHI TEA (2 Nos.)",
         "basePrice": 41,
-        "details": "90ml serving | Strong milk tea with elachi",
-        "addonLabel": "Kulhad",
-        "addonPrice": 51
+        "details": "90ml serving | Strong milk tea with elachi"
       },
       {
         "id": "masala_tea_2nos",
-        "name": "MASALA TEA ( 2nos )",
+        "name": "MASALA TEA (2 Nos.)",
         "basePrice": 51,
-        "details": "90ml serving | Strong milk tea with Tea Masala",
-        "addonLabel": "Kulhad",
-        "addonPrice": 61
+        "details": "90ml serving | Strong milk tea with Tea Masala"
       },
       {
         "id": "gud_wali_chai_2nos",
-        "name": "GUD WALI CHAI ( 2nos )",
+        "name": "GUD WALI CHAI (2 Nos.)",
         "basePrice": 51,
-        "details": "90ml serving | Strong milk tea with Jaggry Powder",
-        "addonLabel": "Kulhad",
-        "addonPrice": 61
+        "details": "90ml serving | Strong milk tea with Jaggry Powder"        
       }
     ]
   },
   
   {
     "id": "desi_chai_K",
-    "category": "DESI CHAI (KULHAD)",
+    "category": "DESI CHAI (IN KULHAD)",
     "items": [
       {
         "id": "cutting_chai_2nos_k",
-        "name": "CUTTING CHAI(2nos;Kulhad)",
+        "name": "CUTTING CHAI (2 Nos.)",
         "basePrice": 41,
-        "details": "90ml serving | Strong tea with milk",
-        "addonLabel": "Kulhad",
-        "addonPrice": 41
+        "details": "90ml serving | Strong tea with milk"
       },
       {
         "id": "adrak_tea_2nos_k",
-        "name": "ADRAK TEA(2nos;Kulhad)",
+        "name": "ADRAK TEA (2 Nos.)",
         "basePrice": 51,
-        "details": "90ml serving | Strong tea with milk and ginger",
-        "addonLabel": "Kulhad",
-        "addonPrice": 51
+        "details": "90ml serving | Strong tea with milk and ginger"
       },
       {
         "id": "baarish_wali_chai_2nos_k",
-        "name": "BAARISH WALI CHAI(2nos;Kulhad)",
+        "name": "BAARISH WALI CHAI (2 Nos.)",
         "basePrice": 51,
-        "details": "90ml serving | Strong milk tea with ginger and elachi",
-        "addonLabel": "Kulhad",
-        "addonPrice": 51
+        "details": "90ml serving | Strong milk tea with ginger and elachi"
       },
       {
         "id": "elaichi_tea_2nos_k",
-        "name": "ELAICHI TEA(2nos;Kulhad)",
+        "name": "ELAICHI TEA (2 Nos.)",
         "basePrice": 51,
-        "details": "90ml serving | Strong milk tea with elachi",
-        "addonLabel": "Kulhad",
-        "addonPrice": 51
+        "details": "90ml serving | Strong milk tea with elachi"
       },
       {
         "id": "masala_tea_2nos_k",
-        "name": "MASALA TEA(2nos;Kulhad)",
+        "name": "MASALA TEA (2 Nos.)",
         "basePrice": 61,
-        "details": "90ml serving | Strong milk tea with Tea Masala",
-        "addonLabel": "Kulhad",
-        "addonPrice": 61
+        "details": "90ml serving | Strong milk tea with Tea Masala"
       },
       {
         "id": "gud_wali_chai_2nos_k",
-        "name": "GUD WALI CHAI(2nos;Kulhad)",
+        "name": "GUD WALI CHAI (2 Nos.)",
         "basePrice": 61,
-        "details": "90ml serving | Strong milk tea with Jaggry Powder",
-        "addonLabel": "Kulhad",
-        "addonPrice": 61
+        "details": "90ml serving | Strong milk tea with Jaggry Powder"
       }
     ]
   },
@@ -179,31 +147,31 @@
     "items": [
       {
         "id": "chocolate_tea_2nos",
-        "name": "CHOCOLATE TEA ( 2nos )",
+        "name": "CHOCOLATE TEA (2 Nos.)",
         "basePrice": 26,
         "details": "Freshly prepared at Tealogy Cafe"
       },
       {
         "id": "paan_tea_2nos",
-        "name": "PAAN TEA ( 2nos )",
+        "name": "PAAN TEA (2 Nos.)",
         "basePrice": 26,
         "details": "Freshly prepared at Tealogy Cafe"
       },
       {
         "id": "kesar_tea_2nos",
-        "name": "KESAR TEA ( 2nos )",
+        "name": "KESAR TEA (2 Nos.)",
         "basePrice": 26,
         "details": "Freshly prepared at Tealogy Cafe"
       },
       {
         "id": "rose_tea_2nos",
-        "name": "ROSE TEA ( 2nos )",
+        "name": "ROSE TEA (2 Nos.)",
         "basePrice": 26,
         "details": "Freshly prepared at Tealogy Cafe"
       },
       {
         "id": "mango_tea_2nos",
-        "name": "MANGO TEA ( 2nos )",
+        "name": "MANGO TEA (2 Nos.)",
         "basePrice": 26,
         "details": "Freshly prepared at Tealogy Cafe"
       }
@@ -215,31 +183,31 @@
     "items": [
       {
         "id": "chocolate_tea_2nos_k",
-        "name": "CHOCOLATE TEA(2nos;Kulhad)",
+        "name": "CHOCOLATE TEA (2 Nos.)",
         "basePrice": 31,
         "details": "Freshly prepared at Tealogy Cafe"
       },
       {
         "id": "paan_tea_2nos_k",
-        "name": "PAAN TEA(2nos;Kulhad)",
+        "name": "PAAN TEA (2 Nos.)",
         "basePrice": 31,
         "details": "Freshly prepared at Tealogy Cafe"
       },
       {
         "id": "kesar_tea_2nos_k",
-        "name": "KESAR TEA(2nos;Kulhad)",
+        "name": "KESAR TEA (2 Nos.)",
         "basePrice": 31,
         "details": "Freshly prepared at Tealogy Cafe"
       },
       {
         "id": "rose_tea_2nos_k",
-        "name": "ROSE TEA(2nos;Kulhad)",
+        "name": "ROSE TEA (2 Nos.)",
         "basePrice": 31,
         "details": "Freshly prepared at Tealogy Cafe"
       },
       {
         "id": "mango_tea_2nos_k",
-        "name": "MANGO TEA(2nos;Kulhad)",
+        "name": "MANGO TEA (2 Nos.)",
         "basePrice": 31,
         "details": "Freshly prepared at Tealogy Cafe"
       }
@@ -257,13 +225,13 @@
       },
       {
         "id": "hot_coffee_2nos",
-        "name": "HOT COFFEE ( 2nos )",
+        "name": "HOT COFFEE (2 Nos.)",
         "basePrice": 61,
         "details": "Freshly prepared at Tealogy Cafe"
       },
       {
         "id": "chocolate_hot_coffee_2nos",
-        "name": "CHOCOLATE HOT COFFEE( 2nos )",
+        "name": "CHOCOLATE HOT COFFEE (2 Nos.)",
         "basePrice": 71,
         "details": "Freshly prepared at Tealogy Cafe"
       }
@@ -275,13 +243,13 @@
     "items": [
       {
         "id": "badam_kesar_milk",
-        "name": "BADAM KESAR MILK(Kulhad)",
+        "name": "BADAM KESAR MILK (Kulhad)",
         "basePrice": 91,
         "details": "Freshly prepared at Tealogy Cafe"
       },
       {
         "id": "hot_chocolate",
-        "name": "HOT CHOCOLATE(Kulhad)",
+        "name": "HOT CHOCOLATE (Kulhad)",
         "basePrice": 60,
         "details": "Freshly prepared at Tealogy Cafe"
       }
@@ -659,19 +627,19 @@
     "items": [
       {
         "id": "butter_toast_chai_2nos",
-        "name": "BUTTER TOAST+CHAI ( 2nos )",
+        "name": "CHAI(2 Nos.)+ BUTTER TOAST",
         "basePrice": 51,
         "details": "Freshly prepared at Tealogy Cafe"
       },
       {
         "id": "bun_maska_chai_2nos",
-        "name": "BUN MASKA + CHAI ( 2nos )",
+        "name": "CHAI(2 Nos.) + BUN MASKA",
         "basePrice": 51,
         "details": "Freshly prepared at Tealogy Cafe"
       },
       {
         "id": "masala_tea_fries_2nos_combo",
-        "name": "MASALA TEA+FRIES ( 2nos )",
+        "name": "FRIES + MASALA TEA(2 Nos.)",
         "basePrice": 101,
         "details": "Freshly prepared at Tealogy Cafe"
       },
