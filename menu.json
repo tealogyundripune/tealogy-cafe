@@ -18,7 +18,7 @@
         "details":"300ml chilled coffee with ice cream"
 	  },
       {
-        "id": "adrak_tea_2nos_k",
+        "id": "adrak_tea_2nos_f_k",
         "name": "ADRAK TEA(2nos;Kulhad)",
         "basePrice": 51,
         "details": "90ml serving | Strong tea with milk and ginger",
@@ -26,7 +26,7 @@
         "addonPrice": 51
       },
       {
-        "id": "baarish_wali_chai_2nos_k",
+        "id": "baarish_wali_chai_2nos_f_k",
         "name": "BAARISH WALI CHAI(2nos;Kulhad)",
         "basePrice": 51,
         "details": "90ml serving | Strong milk tea with ginger and elachi",
@@ -44,7 +44,7 @@
         "id":"xtra_cheese",
         "name":"EXTRA CHEESE",
         "basePrice":20,
-        "details":"Toss up your sandwich with extra cheese",
+        "details":"Toss up your sandwich with extra cheese"
       },
       {
         "id":"pav_single",
@@ -54,11 +54,11 @@
 	  },
       
 	  {
-        "id":"pav_single",
+        "id":"pav_pair",
         "name":"PAV (PAIR(2x))",
         "basePrice":20,
         "details":"2 Pav"
-	  },
+	  }
       
     ]
   },
@@ -364,7 +364,7 @@
     "category": "COLD COFFEE",
     "items": [
       {
-        "id": "cold_coffee",
+        "id": "cold_coffee_item",
         "name": "COLD COFFEE",
         "basePrice": 91,
         "details": "Freshly prepared at Tealogy Cafe"
