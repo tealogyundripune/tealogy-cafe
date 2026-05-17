@@ -130,12 +130,9 @@
 	
 	<div class="text-xs text-center text-gray-500 mb-3">
 		₹25 packing charges applicable. GST extra as per Government Rules.
-	</div>
-	
-	<div class="text-xs text-center text-gray-500 mb-3">
 		Use Add-On category to explore more options for your favorite dish.
 	</div>
-  
+	 
   <div id="menu"></div>
 	
 	<div class="text-center text-xs text-gray-400 mt-8 mb-6">
@@ -545,32 +542,21 @@ function startPayment(){
   wallet: true
 },
 
+	
+	handler: function(response){
 
-    handler: function(response){
+  paymentSuccess = true;
+	document.body.style.pointerEvents = 'auto';
+	document.body.style.opacity = '1';
+	
+  razorpayPaymentId =
+    response.razorpay_payment_id;
 
-      paymentSuccess = true;
+  // DIRECTLY SEND TO WHATSAPP FLOW
+  submitOrder();
+},
 
-      razorpayPaymentId =
-        response.razorpay_payment_id;
-
-      alert(
-        'Payment Successful!\nPayment ID: ' +
-        razorpayPaymentId
-      );
-	  
-	  
-      const btn =
-        document.getElementById(
-          'confirmBtn'
-        );
-
-      btn.disabled = false;
-
-      btn.classList.remove(
-        'opacity-50'
-      );
-    },
-
+   
     prefill: {
 
       name:
@@ -615,12 +601,6 @@ function submitOrder(){
     document.getElementById('instructions').value;
 
 
-if(!paymentSuccess){
-
-  alert('Please complete payment first');
-
-  return;
-}
 
 
 
@@ -656,17 +636,21 @@ if(!paymentSuccess){
       `• ${item.name} x${qty} = ₹${itemTotal}\n`;
   }
 
-  total += 15;
-	
+	const packingCharge = 25;
+	const gst = Math.round(total * 0.05);
+	total = total + packingCharge + gst;
+
 	
 const message =
-`☕ *TEALOGY CAFE ORDER*
+`☕ *TEALOGY CAFE - PAID ORDER*
+
+✅ Payment Successful
 
 👤 Customer: ${name}
 📞 Phone: ${phone}
 
 🛒 *Items Ordered:*
-${orderText}
+• ${orderText}
 
 💰 *Total: ₹${total}*
 
@@ -676,11 +660,10 @@ ${orderText}
 📍 Address:
 ${address}
 
-💳 Payment: ${payment}
-
 📝 Instructions:
 ${instructions}
 
+💳 Payment: ${payment}
 💳 Razorpay Payment ID:
 ${razorpayPaymentId}`;
 
@@ -689,7 +672,14 @@ const whatsappURL =
   'https://wa.me/917385556163?text=' +
   encodeURIComponent(message);
 
+alert(
+  'Payment successful! Please tap SEND on WhatsApp to confirm your order.'
+);
+
 window.open(whatsappURL,'_blank');
+
+document.body.style.pointerEvents = 'auto';
+document.body.style.opacity = '1';
 
 // RESET APP AFTER ORDER
 
@@ -721,7 +711,11 @@ updateCart();
 
 renderMenu('frequently');
 
-alert('Order sent successfully on WhatsApp!');
+alert(
+  '✅ Payment successful!\n\n' +
+  'WhatsApp will now open.\n\n' +
+  'Please tap the GREEN SEND button once to confirm your order.'
+);
 
  
 }
@@ -823,7 +817,7 @@ loadMenu();
         class="w-full border p-3 rounded mb-3">
 
         <option>UPI</option>
-        <option>Cash</option>
+        
 
       </select>
 
@@ -833,36 +827,18 @@ loadMenu();
         placeholder="Special Instructions"></textarea>
 
      
+	<div class="bg-yellow-100 border border-yellow-400 text-yellow-800 p-3 rounded-lg text-sm mb-3">
+		⚠️ After successful payment, WhatsApp will open automatically.<br><br>
+		Please tap the GREEN SEND button on WhatsApp to confirm your order.
+	</div>		
 	  
-	  
+	<button
+	  onclick="startPayment()"
+	  class="btn w-full text-lg mb-3 bg-green-600">
 
+	  Pay & Place Order
 
-
-		
-		
-
-			
-			
-			
-<button
-  onclick="startPayment()"
-  class="btn w-full text-lg mb-3 bg-green-600">
-
-  Pay Now
-
-</button>
-
-<button
-  id="confirmBtn"
-  onclick="submitOrder()"
-  disabled
-  class="btn w-full text-lg opacity-50">
-
-  Confirm Order on WhatsApp
-
-</button>
-
-
+	</button>
 			
 			
 		
